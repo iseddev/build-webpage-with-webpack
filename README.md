@@ -26,9 +26,6 @@ Aunque este entorno de desarrollo, hasta cierto punto es simple, es importante c
 <br><br><br>
 
 ## ***Configuraciones iniciales***
-
-<br><br>
-
 ### **NODEJS**
 El primer paso es tener instalado NodeJS en tu equipo y con la **versión 16.10** como mínimo, esto es fundamental ya que **Yarn** funcionará mejor a partir de esta versión de Node. Para descargar la última versión, da click [aquí](https://nodejs.org/ "Sitio oficial").
 Una vez que lo hayas instalado, puedes verificar la versión de Node en tu equipo (recerda que debes tener una version 16.10 o superior) con:
