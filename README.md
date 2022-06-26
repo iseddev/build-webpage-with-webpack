@@ -1,38 +1,47 @@
-# **Template básico para crear un sitio web estático**
+# **Entorno de desarrollo para crear un sitio web estático**
 
-En este repositorio encontrarás un entorno de desarrollo creado para construir sitios web estáticos de forma sencilla y automatizada. Puedes usarlo libremente y hacerle las modificaciones que consideres convenientes.<br><br>
+En este repositorio encontrarás un ***entorno de desarrollo*** creado para construir sitios web estáticos de forma sencilla y automatizada. Puedes usarlo libremente y hacerle las modificaciones que consideres convenientes.
+
+Puedes utilizarlo tanto para el desarrollo de un sitio web estático profesional o para que realices tus ejercicios si estás iniciando tu aprendizaje en esta maravillosa profesión del desarrollo web.
+<br><br>
 
 ## Herramientas implementadas:
 
 <br><br>
 
 <img src="src/images/yarn-icon.svg" width="100px">
-Cómo gestor de dependencias, se hace uso de [**Yarn**](https://yarnpkg.com/ "Sitio oficial").
+
+Como gestor de dependencias, se hace uso de [**Yarn**](https://yarnpkg.com/ "Sitio oficial").
 
 <br><br>
 
 <img src="src/images/webpack-icon.svg" width="100px" style="margin: 0 auto">
+
 Para el flujo de trabajo y empaquetamiento de módulos, se implementó [**Webpack**](https://webpack.js.org/ "Sitio oficial").
 
 <br><br>
 
 <img src="src/images/pugjs-icon.svg" width="100px">
-Como motor de plantillas se utilizará [**Pug**](https://webpack.js.org/ "Sitio oficial") (aunque no es forsozo).
+
+Como motor de plantillas se utiliza [**Pug**](https://webpack.js.org/ "Sitio oficial") (aunque no es forsozo, puedes utilizar HTML "nativo").
 
 <br><br>
 
 <img src="src/images/sass-icon.svg" width="100px">
-Para aplicar estilos, se hace uso de la sintaxis de [**Sass**](https://sass-lang.com/ "Sitio oficial"), pero también puedes usar vanilla CSS.
+
+Para aplicar estilos, se hace uso de la sintaxis de [**Sass**](https://sass-lang.com/ "Sitio oficial"), pero también puedes usar CSS "nativo".
 
 <br><br>
 
 <img src="src/images/javascript-icon.svg" width="100px">
-Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remoridmientos de compatibilidad con la mayoría de navegadores.
+
+Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remoridmientos de compatibilidad, ya que el resultado final será altamente entendible por la gran mayoría de navegadores gracias a Webpack + Babel.
 
 <br><br>
 
 <img src="src/images/git-icon.svg" width="100px">
-Para la gestión de todo tu proyecto, puedes utilizar Git.
+
+Para la gestión de todo tu proyecto, puedes utilizar (altamente recomendable) [**Git**](https://git-scm.com/ "Sitio oficial").
 
 <br><br>
 
@@ -51,29 +60,31 @@ Aunque este entorno de desarrollo, hasta cierto punto es simple, es importante c
 <br>
 
 ### **NODEJS**
-El primer paso es tener instalado NodeJS en tu equipo y con la **versión 16.10** como mínimo, esto es fundamental ya que Yarn funcionará mejor a partir de esta versión de Node. Para descargar la última versión, da click [aquí](https://nodejs.org/ "Sitio oficial").
-Una vez que lo hayas instalado, puedes verificar la versión actuak en tu equipo (recerda que debes tener una version 16.10 o superior) con:
+El primer paso es tener instalado NodeJS en tu equipo y con la **versión 16.10** como mínimo, esto es fundamental ya que **Yarn** funcionará mejor a partir de esta versión de Node. Para descargar la última versión, da click [aquí](https://nodejs.org/ "Sitio oficial").
+Una vez que lo hayas instalado, puedes verificar la versión de Node en tu equipo (recerda que debes tener una version 16.10 o superior) con:
 ```
 $ node --version | $ node -v
 ```
+### **CREAR CARPETA/FICHERO DE TRABAJO**
+Te recomiendo crear una carpeta para que ahí sea donde se "instale" o descargue este entorno de trabajo.
+
 ### **IMPLEMENTAR ESTE TEMPLATE EN TU EQUIPO**
 Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opciones:
-1. CLONAR EL REPOSITORIO<br>
-   Utiliza el comando `git clone` para clonar este repositorio y descargarlo en tu equipo. Abre tu terminal asegurándote de estar posicionado en la ubicación donde desees descargae este entorno de trabajo.
-	 *Te recomiendo tener una carpeta creada para clonar este repositorio*
+1. CLONAR ESTE REPOSITORIO<br>
+   Abre tu terminal asegurándote de estar posicionado en la ubicación donde desees "clonar" este entorno de trabajo. Utiliza el comando `git clone` para realizar la descarga:
 	 ```
 	 $ git clone https://github.com/githubUserName/repositoryName.git
 	 ```
 2. DESCARGAR EL TEMPLATE<br>
-   Descarga el archivo .zip y descomprímelo en la carpeta donde usarás este entorno de trabajo.<br><br>
+   Descarga el archivo .zip y descomprímelo en la carpeta que usarás para llevar a cabo el proceso de creación de tu sitio web.<br><br>
 
-### **CREAR CARPETA FICHERO DE TRABAJO**
+### **SI CLONASTE ESTE REPOSITORIO**
 Si te decidiste por *clonar* este repositorio, dentro de la carpeta que seleccionaste, se creó otra carpeta llamada ***static-website-workflow*** (aunque sin problemas lo puedes cambiar).
-Ahora en tu terminal deberas *moverte* a esta carpeta, lo puedes hacer con el siguiente comando:
+Ahora en tu terminal deberas *moverte* a esta carpeta ejecutando el siguiente comando:
 ```
 $ cd static-website-workflow
 ```
-En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.<br><br>
+*En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.*<br><br>
 
 ### **INSTALAR LA ÚLTIMA VERSIÓN DE YARN**
 Asegurate que en tu terminal estes posicionado en la carpeta donde se descargó el repositorio (por defecto: static-website-workflow). Por ejemplo, debes ver algo así:
@@ -103,6 +114,8 @@ Esto abrirá el navegador que tengas definido como predeterminado y verás la pa
 
 Ahora realiza las pruebas iniciales dentro del archivo test.pug o de los archivos de estilos y verás en tiempo real en tu navegador dichos cambios.
 
+Crea tu propio flujo de archivos, considerando importaciones y configuraciones necesarios para que tu sitio web funcione correctamente.
+
 <br>
 
 ### **ACCESO DISPOSITIVOS EXTERNOS**
@@ -114,3 +127,11 @@ Esto es muy útil, ya que podrás visualizar en tiempo real, como se ve tu sitio
 
 ### **FLUJO DE TRABAJO**
 Este template implementa el uso de tecnologías como Pug y/o Sass, aunque no es forzoso utilizarlos, simplemente has las configuraciones necesarias en tu proyecto y si así lo deseas, puedes utilizar HTML y CSS "puros". Lo recomendable, es hacer uso de herramientas que te ayuden a acelerar y simplificar tu proceso de trabajo.
+
+### **MODALIDAD DE PRODUCCIÓN**
+Una vez que hayas creado tu sitio web como lo planificaste y con las funcionalidades que decidiste tener, es hora de crear la carperta que contendrá todos los archivos necesarios y sufucuientes pra que sin ningún problema, puedas subir tu proyecto ya sea a un hosting gratuito o un hosting privado junto a tu propio nombre de dominio.
+
+### **ACTUALIZACIONS**
+Aún falta implementar algunas mejoras, como el manejo de errores ***"404"*** mediante archivos .httaccess, implementación de formularios mediante el uso y validación con **PHP**, entre otros. Este proyecto puede ser colaborativo, es decir, puedes mandar tus observaciones y mejoras mediante los medios que Git y Github ofrecen.
+
+Este repositorio se irá actualizando conforme se integren mejoras. Espero te sea útil.
