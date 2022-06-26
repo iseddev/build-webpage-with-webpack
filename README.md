@@ -7,41 +7,14 @@ Puedes utilizarlo tanto para el desarrollo de un sitio web estático profesional
 
 ## Herramientas implementadas:
 
-<br><br>
-
-<img src="src/images/yarn-icon.svg" width="100px">
-
-Como gestor de dependencias, se hace uso de [**Yarn**](https://yarnpkg.com/ "Sitio oficial").
-
-<br><br>
-
-<img src="src/images/webpack-icon.svg" width="100px" style="margin: 0 auto">
-
-Para el flujo de trabajo y empaquetamiento de módulos, se implementó [**Webpack**](https://webpack.js.org/ "Sitio oficial").
-
-<br><br>
-
-<img src="src/images/pugjs-icon.svg" width="100px">
-
-Como motor de plantillas se utiliza [**Pug**](https://webpack.js.org/ "Sitio oficial") (aunque no es forsozo, puedes utilizar HTML "nativo").
-
-<br><br>
-
-<img src="src/images/sass-icon.svg" width="100px">
-
-Para aplicar estilos, se hace uso de la sintaxis de [**Sass**](https://sass-lang.com/ "Sitio oficial"), pero también puedes usar CSS "nativo".
-
-<br><br>
-
-<img src="src/images/javascript-icon.svg" width="100px">
-
-Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remoridmientos de compatibilidad, ya que el resultado final será altamente entendible por la gran mayoría de navegadores gracias a Webpack + Babel.
-
-<br><br>
-
-<img src="src/images/git-icon.svg" width="100px">
-
-Para la gestión de todo tu proyecto, puedes utilizar (altamente recomendable) [**Git**](https://git-scm.com/ "Sitio oficial").
+Herramienta | Uso
+--- | ---
+<img src="src/images/yarn-icon.svg" width="100px"> | Como gestor de dependencias, se hace uso de [**Yarn**](https://yarnpkg.com/ "Sitio oficial")
+<img src="src/images/webpack-icon.svg" width="100px" style="margin: 0 auto"> | Para el flujo de trabajo y empaquetamiento de módulos, se implementó [**Webpack**](https://webpack.js.org/ "Sitio oficial").
+<img src="src/images/pugjs-icon.svg" width="100px"> | Como motor de plantillas se utiliza [**Pug**](https://webpack.js.org/ "Sitio oficial") (aunque no es forsozo, puedes utilizar HTML "nativo").
+<img src="src/images/sass-icon.svg" width="100px"> | Para aplicar estilos, se hace uso de la sintaxis de [**Sass**](https://sass-lang.com/ "Sitio oficial"), pero también puedes usar CSS "nativo".
+<img src="src/images/javascript-icon.svg" width="100px"> | Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remoridmientos de compatibilidad, ya que el resultado final será altamente entendible por la gran mayoría de navegadores gracias a Webpack + Babel.
+<img src="src/images/git-icon.svg" width="100px"> | Para la gestión de todo tu proyecto, puedes utilizar (altamente recomendable) [**Git**](https://git-scm.com/ "Sitio oficial").
 
 <br><br>
 
@@ -52,9 +25,8 @@ Para la gestión de todo tu proyecto, puedes utilizar (altamente recomendable) [
 Aunque este entorno de desarrollo, hasta cierto punto es simple, es importante considerar que deberás tener conocimientos suficientes en el manejo de las herramientas que se han detallado (JS, PUG, SASS, WEBPACK, YARN y GIT)
 <br><br><br>
 
----
 ## ***Configuraciones iniciales***
----
+
 <br><br>
 
 ### **NODEJS**
