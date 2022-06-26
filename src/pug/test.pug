@@ -1,0 +1,37 @@
+doctype html
+html(lang="es-MX")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=yes")
+		title My awesome website
+		link(rel="stylesheet", href="")
+		//- link(href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;300&display=swap" rel="stylesheet")
+	body.body
+			main.main.flex-container
+				section.main-section.flex-container.flex-cross_center
+					.flex-container.flex-cross_center
+						.flex-item.md-50
+							.content
+								.content-title
+									h1.title Welcome to this static website template!!!
+								.content-subtitle
+									h2.subtitle Have fun creating your first fantastic website
+						.flex-item.md-50
+							.content-image
+								img.content-image__illustration(src=require("../images/website-development.svg"), alt="Ilustración Desarrollo Web")
+				footer.footer.flex-container.flex-main_center
+					.flex-item
+						p This template was created with 🔥 and using:
+					.flex-item.xs-20.md-10
+						.icon.icon__yarn(title="Yarn icon")
+					.flex-item.xs-20.md-10
+						.icon.icon__webpack(title="Webpack icon")
+					.flex-item.xs-20.md-10
+						img.icon.icon__js(src=require("../images/javascript-icon.svg"), alt="Icono JS en formato SVG", title="JavaScript icon")
+					.flex-item.xs-20.md-10
+						.icon.icon__sass(title="Sass icon")
+					.flex-item.xs-20.md-10
+						img.icon.icon__pug(src=require("../images/pugjs-icon.svg"), alt="Icono PUG en formato SVG", title="Pug icon")
+					.flex-item.xs-20.md-10
+						img.icon.icon__git(src=require("../images/git-icon.svg"), alt="Icono Git en formato SVG", title="Git icon")
