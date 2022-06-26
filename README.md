@@ -111,3 +111,4 @@ Esto es muy útil, ya que podrás visualizar en tiempo real, como se ve tu sitio
 ### **FLUJO DE TRABAJO**
 Este template implementa el uso de tecnologías como Pug y/o Sass, aunque no es forzoso utilizarlos, simplemente has las configuraciones necesarias en tu proyecto y si así lo deseas, puedes utilizar HTML y CSS "puros". Lo recomendable, es hacer uso de herramientas que te ayuden a acelerar y simplificar tu proceso de trabajo.
 
+Modificación para pruebas del comando `git push`
