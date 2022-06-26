@@ -59,39 +59,43 @@ $ node --version | $ node -v
 ### **IMPLEMENTAR ESTE TEMPLATE EN TU EQUIPO**
 Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opciones:
 1. CLONAR EL REPOSITORIO<br>
-   Utiliza la opción de "clonar" este repositorio para descargarlo a tu equipo.
+   Utiliza el comando `git clone` para clonar este repositorio y descargarlo en tu equipo. Abre tu terminal asegurándote de estar posicionado en la ubicación donde desees descargae este entorno de trabajo.
+	 *Te recomiendo tener una carpeta creada para clonar este repositorio*
 	 ```
 	 $ git clone https://github.com/githubUserName/repositoryName.git
 	 ```
 2. DESCARGAR EL TEMPLATE<br>
-   Descarga el archivo .zip y descomprímelo.<br><br>
+   Descarga el archivo .zip y descomprímelo en la carpeta donde usarás este entorno de trabajo.<br><br>
 
 ### **CREAR CARPETA FICHERO DE TRABAJO**
-Si te decidiste por clonar este repositorio, se creo la carpeta con el nombre por defecto (aunque sin problemas lo puedes cambiar). En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.<br><br>
+Si te decidiste por *clonar* este repositorio, dentro de la carpeta que seleccionaste, se creó otra carpeta llamada ***static-website-workflow*** (aunque sin problemas lo puedes cambiar).
+Ahora en tu terminal deberas *moverte* a esta carpeta, lo puedes hacer con el siguiente comando:
+```
+$ cd static-website-workflow
+```
+En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.<br><br>
 
 ### **INSTALAR LA ÚLTIMA VERSIÓN DE YARN**
-**Yarn** se ha actualizado y para que implementes la última versión, abre la terminal de tu equipo y posicionate en la carpeta de tu proyecto:<br>
-Por ejemplo, debes ver algo así:
+Asegurate que en tu terminal estes posicionado en la carpeta donde se descargó el repositorio (por defecto: static-website-workflow). Por ejemplo, debes ver algo así:
 ```
-userName@PC-Name ~/Desktop/projectFolderName
+userName@PC-Name ~/Desktop/cloneTest/static-website-workflow
 $ |
 ```
-Una vez hayas verificado esto, ejecuta lo siguiente:
-
+Una vez hayas verificado esto, tienes que implementar la última versión de **Yarn**, para ello, ejecuta lo siguiente:
 ```
 $ yarn set version stable
 ```
 Esto definirá en el archivo ***package.json*** la versión más reciente de Yarn.<br><br>
 
 ### **INSTALAR TODAS LAS DEPENDENCIAS**
-Cómo estas usando Yarn, para instalar todas las dependencias necesarias (que ya están definidas en el archivo ***package.json***), ejecuta el siguiente comando en tu terminal:
+Estás a un sólo paso de comenzar tu sitio web de forma práctica y automatizada. Cómo estas usando Yarn, para instalar todas las dependencias necesarias (que ya están definidas en el archivo ***package.json***), ejecuta el siguiente comando en tu terminal:
 ```
 yarn install
 ```
 <br>
 
 ### **PRIMERAS PRUEBAS**
-Si todo ha marchado bien, ahora ya podrás realizar las primeras pruebas para comenzar a construir tu propio sitio web. Para comenzar el proceso trabajo y utilizar la modalidad de *desarollo* (development), ejecuta en tu terminal lo siguiente:
+¡¡¡ Listo !!! Si todo ha marchado bien, ahora ya podrás realizar las primeras pruebas para comenzar a construir tu propio sitio web. Para comenzar el proceso trabajo y utilizar la modalidad de *desarollo* (development), ejecuta en tu terminal lo siguiente:
 ```
 yarn start
 ```
