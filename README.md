@@ -121,17 +121,31 @@ Crea tu propio flujo de archivos, considerando importaciones y configuraciones n
 ### **ACCESO DISPOSITIVOS EXTERNOS**
 Una de las grandes ventajas de este entorno de desarrollo, es que te permite visualizar tu proyecto desde dispositivos externos tales como smartphones, tablets, otras PC, etc. Pero para que esto sea posible, los equipos externos deben estar conectados a la misma red local, o lo que es lo mismo, conectados a la misma señal de internet (WiFi), ya que de no ser así, no podrás tener acceso al proyecto.
 
-Esto es muy útil, ya que podrás visualizar en tiempo real, como se ve tu sitio web en tu smartphone o tablet, e ir haciendo las modificaciones necesarias para que tu proyecto tenga el mejor comportamiento y presentación en otros tamaños de pantallas.
+Una vez que ejecutas tu proyecto, en tu terminal tienes que ver algo como esto (también visible en la barra de direcciones de tu navegador que se abrió al ejecutar tu proyecto):
+```
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.100.133:3000/
+```
+Ingresa en la barra de direcciones del navegador de tu smartphone (o cualquier otro dispositivo con navegador) la dirección desde ***http***, esto deberá mostrar la ejecución de tu proyecto en tu smartphone y cada que realices un cambio y lo confirmes, automáticamente se actualizará tanto en el navegador de tu PC como en el de tu smartphone.
+
+Esto es muy útil, ya que podrás visualizar en tiempo real, como se ve tu sitio web en tu smartphone o tablet, e ir haciendo las modificaciones necesarias para que tu proyecto tenga el mejor comportamiento y apriencia en los diversos tamaños de pantallas.
 
 <br>
 
 ### **FLUJO DE TRABAJO**
-Este template implementa el uso de tecnologías como Pug y/o Sass, aunque no es forzoso utilizarlos, simplemente has las configuraciones necesarias en tu proyecto y si así lo deseas, puedes utilizar HTML y CSS "puros". Lo recomendable, es hacer uso de herramientas que te ayuden a acelerar y simplificar tu proceso de trabajo.
+Este template implementa el uso de tecnologías como Pug y/o Sass, aunque no es forzoso utilizarlos, simplemente implementa las configuraciones necesarias en tu proyecto y si así lo deseas, puedes utilizar HTML y CSS "puros". Lo recomendable, es hacer uso de herramientas que te ayuden a acelerar y simplificar tu proceso de trabajo.
 
 ### **MODALIDAD DE PRODUCCIÓN**
 Una vez que hayas creado tu sitio web como lo planificaste y con las funcionalidades que decidiste tener, es hora de crear la carperta que contendrá todos los archivos necesarios y sufucuientes pra que sin ningún problema, puedas subir tu proyecto ya sea a un hosting gratuito o un hosting privado junto a tu propio nombre de dominio.
 
-### **ACTUALIZACIONS**
+Para ello, ejecuta en tu terminal:
+```
+$ yarn run build
+```
+Esto creará en tu directorio la carpeta ***dist/***, que contendrá todos los archivos necesarios para implementarlos en tu hosting y poner tu sitio web en línea.
+
+No es necesario esperar hasta que termines tu proyecto por completo en el modo "desarrollo", puedes hacer una prueba para ver como es la estructura de la carperta ***dist/*** e indagar un poco la salida de las carpetas y archivos.
+
+### **ACTUALIZACIONES**
 Aún falta implementar algunas mejoras, como el manejo de errores ***"404"*** mediante archivos .httaccess, implementación de formularios mediante el uso y validación con **PHP**, entre otros. Este proyecto puede ser colaborativo, es decir, puedes mandar tus observaciones y mejoras mediante los medios que Git y Github ofrecen.
 
 Este repositorio se irá actualizando conforme se integren mejoras. Espero te sea útil.
