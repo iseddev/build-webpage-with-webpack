@@ -53,11 +53,9 @@ Aunque este entorno de desarrollo, hasta cierto punto es simple, es importante c
 <br><br><br>
 
 ---
----
 ## ***Configuraciones iniciales***
 ---
----
-<br>
+<br><br>
 
 ### **NODEJS**
 El primer paso es tener instalado NodeJS en tu equipo y con la **versión 16.10** como mínimo, esto es fundamental ya que **Yarn** funcionará mejor a partir de esta versión de Node. Para descargar la última versión, da click [aquí](https://nodejs.org/ "Sitio oficial").
@@ -65,8 +63,12 @@ Una vez que lo hayas instalado, puedes verificar la versión de Node en tu equip
 ```
 $ node --version | $ node -v
 ```
+<br>
+
 ### **CREAR CARPETA/FICHERO DE TRABAJO**
 Te recomiendo crear una carpeta para que ahí sea donde se "instale" o descargue este entorno de trabajo.
+
+<br>
 
 ### **IMPLEMENTAR ESTE TEMPLATE EN TU EQUIPO**
 Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opciones:
@@ -76,7 +78,9 @@ Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opci
 	 $ git clone https://github.com/githubUserName/repositoryName.git
 	 ```
 2. DESCARGAR EL TEMPLATE<br>
-   Descarga el archivo .zip y descomprímelo en la carpeta que usarás para llevar a cabo el proceso de creación de tu sitio web.<br><br>
+   Descarga el archivo .zip y descomprímelo en la carpeta que usarás para llevar a cabo el proceso de creación de tu sitio web.
+
+<br>
 
 ### **SI CLONASTE ESTE REPOSITORIO**
 Si te decidiste por *clonar* este repositorio, dentro de la carpeta que seleccionaste, se creó otra carpeta llamada ***static-website-workflow*** (aunque sin problemas lo puedes cambiar).
@@ -84,7 +88,9 @@ Ahora en tu terminal deberas *moverte* a esta carpeta ejecutando el siguiente co
 ```
 $ cd static-website-workflow
 ```
-*En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.*<br><br>
+*En caso de descargar el archivo .zip, puedes crear la carpeta con el nombre que quieras y descomprime los archivos en esta ruta.*
+
+<br>
 
 ### **INSTALAR LA ÚLTIMA VERSIÓN DE YARN**
 Asegurate que en tu terminal estes posicionado en la carpeta donde se descargó el repositorio (por defecto: static-website-workflow). Por ejemplo, debes ver algo así:
@@ -96,7 +102,9 @@ Una vez hayas verificado esto, tienes que implementar la última versión de **Y
 ```
 $ yarn set version stable
 ```
-Esto definirá en el archivo ***package.json*** la versión más reciente de Yarn.<br><br>
+Esto definirá en el archivo ***package.json*** la versión más reciente de Yarn.
+
+<br>
 
 ### **INSTALAR TODAS LAS DEPENDENCIAS**
 Estás a un sólo paso de comenzar tu sitio web de forma práctica y automatizada. Cómo estas usando Yarn, para instalar todas las dependencias necesarias (que ya están definidas en el archivo ***package.json***), ejecuta el siguiente comando en tu terminal:
@@ -134,6 +142,8 @@ Esto es muy útil, ya que podrás visualizar en tiempo real, como se ve tu sitio
 ### **FLUJO DE TRABAJO**
 Este template implementa el uso de tecnologías como Pug y/o Sass, aunque no es forzoso utilizarlos, simplemente implementa las configuraciones necesarias en tu proyecto y si así lo deseas, puedes utilizar HTML y CSS "puros". Lo recomendable, es hacer uso de herramientas que te ayuden a acelerar y simplificar tu proceso de trabajo.
 
+<br>
+
 ### **MODALIDAD DE PRODUCCIÓN**
 Una vez que hayas creado tu sitio web como lo planificaste y con las funcionalidades que decidiste tener, es hora de crear la carperta que contendrá todos los archivos necesarios y suficientes para que sin ningún problema, puedas subir tu proyecto ya sea a un hosting gratuito o un hosting privado junto a tu propio nombre de dominio.
 
@@ -144,6 +154,8 @@ $ yarn run build
 Esto creará en tu directorio la carpeta ***dist/***, que contendrá todos los archivos necesarios para implementarlos en tu hosting y poner tu sitio web en línea.
 
 No es necesario esperar hasta que termines tu proyecto por completo en el modo "desarrollo", puedes hacer una prueba para ver como es la estructura de la carperta ***dist/*** e indagar un poco la salida de las carpetas y archivos.
+
+<br>
 
 ### **ACTUALIZACIONES**
 Aún falta implementar algunas mejoras, como el manejo de errores ***"404"*** mediante archivos .httaccess, implementación de formularios mediante el uso y validación con **PHP**, entre otros. Este proyecto puede ser colaborativo, es decir, puedes mandar tus observaciones y mejoras mediante los medios que Git y Github ofrecen.
