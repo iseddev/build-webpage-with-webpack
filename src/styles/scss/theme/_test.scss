@@ -79,6 +79,8 @@ p {
 	height: 100%;
 	padding-bottom: 1rem;
 	filter: grayscale(100%);
+	transform: scale(1);
+	transition: filter ease-in-out .2s, transform .2s ease-in-out;
 
 	&__yarn {
 		background-image: url(../../images/yarn-icon.svg)
