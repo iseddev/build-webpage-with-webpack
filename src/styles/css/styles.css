@@ -1,0 +1,8 @@
+/* Estilos agregados para la importación de esta hoja el el archivo index.js */
+
+/* Por cascada, estos estilos tienen efecto posterior, ya que en el archivo index.js se importan primero el archivo styles.scss (SASS) y después styles.css (CSS)" */
+
+.icon:hover {
+	filter: none;
+	transform: scale(1.16);
+}
