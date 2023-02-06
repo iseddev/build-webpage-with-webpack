@@ -13,7 +13,7 @@ Herramienta | Uso
 <img src="src/images/webpack-icon.svg" width="100px" style="margin: 0 auto"> | Para el flujo de trabajo y empaquetamiento de módulos, se implementó [**Webpack**](https://webpack.js.org/ "Sitio oficial").
 <img src="src/images/pugjs-icon.svg" width="100px"> | Como motor de plantillas se utiliza [**Pug**](https://webpack.js.org/ "Sitio oficial") (aunque no es forsozo, puedes utilizar HTML "nativo").
 <img src="src/images/sass-icon.svg" width="100px"> | Para aplicar estilos, se hace uso de la sintaxis de [**Sass**](https://sass-lang.com/ "Sitio oficial"), pero también puedes usar CSS "nativo".
-<img src="src/images/javascript-icon.svg" width="100px"> | Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remoridmientos de compatibilidad, ya que el resultado final será altamente entendible por la gran mayoría de navegadores gracias a Webpack + Babel.
+<img src="src/images/javascript-icon.svg" width="100px"> | Utilizarás JavaScript para darle dinamismo a tu sitio aplicando el último estándar sin remordimientos de compatibilidad, ya que el resultado final será altamente entendible por la gran mayoría de navegadores gracias a Webpack + Babel.
 <img src="src/images/git-icon.svg" width="100px"> | Para la gestión de todo tu proyecto, puedes utilizar (altamente recomendable) [**Git**](https://git-scm.com/ "Sitio oficial").
 
 <br><br>
@@ -43,8 +43,8 @@ Te recomiendo crear una carpeta para que ahí sea donde se "instale" o descargue
 Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opciones:
 1. CLONAR ESTE REPOSITORIO<br>
    Abre tu terminal asegurándote de estar posicionado en la ubicación donde desees "clonar" este entorno de trabajo. Utiliza el comando `git clone` para realizar la descarga:
-	 ```
-	 $ git clone https://github.com/githubUserName/repositoryName.git
+	 ```powershell
+	 $ git clone https://github.com/iseddev/static-website-workflow
 	 ```
 2. DESCARGAR EL TEMPLATE<br>
    Descarga el archivo .zip y descomprímelo en la carpeta que usarás para llevar a cabo el proceso de creación de tu sitio web.
@@ -52,7 +52,7 @@ Para poder usar este template y su flujo de trabajo con Webpack, tienes dos opci
 <br>
 
 ### **SI CLONASTE ESTE REPOSITORIO**
-Si te decidiste por *clonar* este repositorio, dentro de la carpeta que seleccionaste, se creó otra carpeta llamada ***static-website-workflow*** (aunque sin problemas lo puedes cambiar).
+Si te decidiste por *clonar* este repositorio, dentro de la carpeta que seleccionaste, se creó otra carpeta llamada ***static-website-workflow*** (aunque sin problemas puedes cambiar este nombre).
 Ahora en tu terminal deberas *moverte* a esta carpeta ejecutando el siguiente comando:
 ```
 $ cd static-website-workflow
