@@ -1,17 +1,19 @@
-/* Apply a natural box layout model to all elements, but allowing components to change */
+/* Applying natural box layout model to all elements, but allowing components to change */
+
 html {
   box-sizing: border-box;
+	font-size: 16px;
+	text-size-adjust: 100%;
+	background-color: #FFF;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1rem;
+	// border: 1px solid rgb(31, 44, 116);
 }
 
 img {

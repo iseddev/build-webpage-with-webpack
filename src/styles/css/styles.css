@@ -1,8 +1,6 @@
-/* Estilos agregados para la importación de esta hoja el el archivo index.js */
+/* Sample of use CSS style sheet (imported and added from index.js to our project) */
 
-/* Por cascada, estos estilos tienen efecto posterior, ya que en el archivo index.js se importan primero el archivo styles.scss (SASS) y después styles.css (CSS)" */
-
-.icon:hover {
+.icon:hover, .lang-image:hover {
 	filter: none;
 	transform: scale(1.16);
 }
