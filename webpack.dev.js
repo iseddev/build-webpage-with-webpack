@@ -18,17 +18,15 @@ module.exports = merge(common, {
 		},
 		hot: true,
 		watchFiles: [ "src/**/*" ],
-		// Determine the port you want to work on (4 positions)
-		port: 3000,
-		//To have access from external devices of your same local network
-		host: "local-ip",
+		port: 3000, // Determine the port you want to work on (4 positions)
+		host: "local-ip", //To have access from external devices of your same local network
+		// https: true, //If you wanta a https protocol
 		open: true,
 		liveReload: true,
 	},
 
 	module: {
 		rules: [
-
 			// ==================== S T Y L E S ====================
 			{
 				test: /\.(sa|sc|c)ss$/i,
